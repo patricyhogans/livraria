@@ -8,12 +8,24 @@ class test extends Controller
 {
     public function index()
     {
-        
-        $str = 'Patricy Silva Santos';
-        $p2 = 'Daniel Jose Santos';
-        $strSobreNome = '';
+       $livros = [
+        "dia e noite",
+        "declinio",
+        "rua do medo"
+    ];
+       
+    $monica = "dentuça";
+    $cebolinha = "egoista";
+    $cascao = "sujo";
+    $magali = "gulosa";
+ $turmamonica= [
+            "monica: $monica",
+            "cascao:$cascao ",
+            "cebolinha:$cebolinha ",
+            "magali:$magali "
 
+        ];
+    print_r($turmamonica);
 
-        return 'Ola :'.$p1.' '.$p2;
     }
 }
